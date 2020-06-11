@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+:root {
+  --menu-text: #4a4a4a;
+  --background-color: #3cdbc0;
+  --main-text: #ffffff; }
+
+* {
+  font-family: "Rubik", sans-serif;
+  line-height: 0px; }
+
+body {
+  background-color: var(--background-color); }
+
+.header {
+  font-family: var(--primary-font);
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+
+ul {
+  list-style-type: none;
+  font-size: 16px; }
+
+.header-logo {
+  width: 155px; }
+
+.header {
+  display: flex;
+  flex-direction: column; }
+
+.menu {
+  color: var(--menu-text);
+  display: flex;
+  justify-content: space-around; }
+
+.menu-item {
+  padding: 10px; }
+
+.main {
+  color: var(--main-text);
+  font-size: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+@media all and (min-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; }
+  .nav-header-menu {
+    font-size: 16px; }
+  .main {
+    font-size: 40px; } }
+
+/*# sourceMappingURL=main.css.map */
